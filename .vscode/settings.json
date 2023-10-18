@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.lsp": "lsp",
+        "iostream": "cpp",
+        "istream": "cpp"
+    }
+}

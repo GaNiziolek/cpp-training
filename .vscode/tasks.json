@@ -10,6 +10,18 @@
                 "-g",
                 "-ggdb",
                 "-pedantic-errors",
+                
+                // https://www.learncpp.com/cpp-tutorial/configuring-your-compiler-warning-and-error-levels/
+                "-Wall",
+                "-Weffc++",
+                "-Wextra",
+                "-Wconversion",
+                "-Wsign-conversion",
+                "-Werror",
+
+                // https://www.learncpp.com/cpp-tutorial/configuring-your-compiler-choosing-a-language-standard/
+                "-std=c++20",
+
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
